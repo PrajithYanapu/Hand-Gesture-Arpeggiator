@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arpeggiator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+
+    <meta name="title" content="Arpeggiator">
+    <meta name="description" content="A hand-controlled arpeggiator, drum machine, and real-time visualizer.">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://collidingscopes.github.io/arpeggiator/">
+    <meta property="og:title" content="Arpeggiator">
+    <meta property="og:description" content="A hand-controlled arpeggiator, drum machine, and real-time visualizer.">
+    <meta property="og:image" content="https://raw.githubusercontent.com/collidingScopes/arpeggiator/main/assets/siteOGImage.webp">
+
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://collidingscopes.github.io/arpeggiator/">
+    <meta property="twitter:title" content="Arpeggiator">
+    <meta property="twitter:description" content="A hand-controlled arpeggiator, drum machine, and real-time visualizer.">
+    <meta property="twitter:image" content="https://raw.githubusercontent.com/collidingScopes/arpeggiator/main/assets/siteOGImage.webp">
+
+    <script defer src="https://cloud.umami.is/script.js" data-website-id="eb59c81c-27cb-4e1d-9e8c-bfbe70c48cd9"></script>
+
+    <script type="importmap">
+    {
+        "imports": {
+            "three": "https://esm.sh/three@0.161.0?dev",
+            "three/": "https://esm.sh/three@0.161.0&dev/"
+        }
+    }
+    </script>
+</head>
+<body>
+
+    <div id="renderDiv"></div>
+
+    <header class="overlay-container">
+        <p id="info-text">raise your hands to raise the roof</p>
+        <nav class="social-links" aria-labelledby="social-links-title">
+            <h2 id="social-links-title" class="visually-hidden">Social Media</h2>
+            <ul>
+                <li><a href="https://www.x.com/measure_plan/" target="_blank" rel="noopener noreferrer">Twitter</a></li>
+                <li><a href="https://www.instagram.com/stereo.drift/" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+                <li><a href="https://youtube.com/@funwithcomputervision" target="_blank" rel="noopener noreferrer">Youtube</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <footer class="overlay-container">
+        <div class="logo-container">
+            <span id="logo" role="img" aria-label="Hamsa hand logo">🪬</span>
+            <a href="https://funwithcomputervision.com/" target="_blank" rel="noopener noreferrer">code & tutorials here</a>
+        </div>
+        <div class="coffee-link">
+            <a href="https://buymeacoffee.com/stereodrift" target="_blank" rel="noopener noreferrer">Buy me a coffee 💛</a>
+        </div>
+    </footer>
+
+    <script type="module" src="main.js"></script>
+
+</body>
+</html>
