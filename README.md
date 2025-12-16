@@ -57,7 +57,7 @@ WebGL support
 
 ⚙️ Run Locally
 # Clone the repository
-git clone 
+git clone : https://github.com/PrajithYanapu/Hand-Gesture-Arpeggiator.git
 
 # Navigate to the project directory
 cd arpeggiator
@@ -120,5 +120,6 @@ Frontend / Full-Stack Development
 Creative Engineering
 
 Computer Vision & Interactive Systems
+
 
 # ⭐ If this project helped or inspired you, please star the repository—it really helps!
